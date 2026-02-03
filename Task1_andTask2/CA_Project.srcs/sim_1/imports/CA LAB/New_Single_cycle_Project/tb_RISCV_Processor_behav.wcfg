@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISC_V_Processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISC_V_Processor_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="40851fs"></ZoomEndTime>
+      <Cursor1Time time="6533750fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="153"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/PC_In" type="array">
+      <obj_property name="ElementShortName">PC_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/PC_Out" type="array">
+      <obj_property name="ElementShortName">PC_Out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/op_code" type="array">
+      <obj_property name="ElementShortName">op_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/funct_7" type="array">
+      <obj_property name="ElementShortName">funct_7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">funct_7[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/funct_3" type="array">
+      <obj_property name="ElementShortName">funct_3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funct_3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/imm_data" type="array">
+      <obj_property name="ElementShortName">imm_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/operation" type="array">
+      <obj_property name="ElementShortName">operation[3:0]</obj_property>
+      <obj_property name="ObjectShortName">operation[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/b" type="array">
+      <obj_property name="ElementShortName">b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">b[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/Mem_Addr" type="array">
+      <obj_property name="ElementShortName">Mem_Addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISC_V_Processor_tb/uut/Read_Data" type="array">
+      <obj_property name="ElementShortName">Read_Data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data[63:0]</obj_property>
+   </wvobject>
+</wave_config>

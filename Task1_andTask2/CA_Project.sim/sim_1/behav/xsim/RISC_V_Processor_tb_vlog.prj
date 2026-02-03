@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/ALU_64_bit.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/Adder.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/DLD Material/DLD_project/DLD_project/CA_LAB_8/CA_LAB_8.srcs/sources_1/new/Data_Memory.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/Immediate_gen.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/InstructionParser.v" \
+"../../../../CA_Project.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/Mux.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/Program_Counter.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/RISC_V_Processor.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sources_1/new/RegisterFile.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_10/CA_LAB_10.srcs/sources_1/new/task_1.v" \
+"../../../../CA_Project.srcs/sources_1/imports/University Work/CA LAB/CA_LAB_10/CA_LAB_10.srcs/sources_1/new/task_2.v" \
+"../../../../CA_Project.srcs/sim_1/imports/CA LAB/CA_LAB_11/CA_LAB_11.srcs/sim_1/new/RISC_V_Processor_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

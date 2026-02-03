@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="task3_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="task3_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4665750fs"></ZoomStartTime>
+      <ZoomEndTime time="4720112fs"></ZoomEndTime>
+      <Cursor1Time time="4671614fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/task3_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/debug_MEMWB_writeData" type="array">
+      <obj_property name="ElementShortName">debug_MEMWB_writeData[63:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_MEMWB_writeData[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_0" type="array">
+      <obj_property name="ElementShortName">Array_Elem_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_1" type="array">
+      <obj_property name="ElementShortName">Array_Elem_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_2" type="array">
+      <obj_property name="ElementShortName">Array_Elem_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_3" type="array">
+      <obj_property name="ElementShortName">Array_Elem_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_4" type="array">
+      <obj_property name="ElementShortName">Array_Elem_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_5" type="array">
+      <obj_property name="ElementShortName">Array_Elem_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/Array_Elem_6" type="array">
+      <obj_property name="ElementShortName">Array_Elem_6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Array_Elem_6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/if_id_reg/PC_addr_store" type="array">
+      <obj_property name="ElementShortName">PC_addr_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_addr_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/instr_mem/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/if_id_reg/Inst_store" type="array">
+      <obj_property name="ElementShortName">Inst_store[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst_store[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/hazard_unit/stall_pc" type="logic">
+      <obj_property name="ElementShortName">stall_pc</obj_property>
+      <obj_property name="ObjectShortName">stall_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/hazard_unit/stall_if_id" type="logic">
+      <obj_property name="ElementShortName">stall_if_id</obj_property>
+      <obj_property name="ObjectShortName">stall_if_id</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/if_id_reg/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/id_ex_reg/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/id_ex_reg/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/id_ex_reg/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ex_mem_reg/rd" type="array">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/ex_mem_reg/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/mem_wb_reg/rd_store" type="array">
+      <obj_property name="ElementShortName">rd_store[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_store[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/mem_wb_reg/ALU_result_store" type="array">
+      <obj_property name="ElementShortName">ALU_result_store[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_store[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/task3_tb/a1/mem_wb_reg/rd_store" type="array">
+      <obj_property name="ElementShortName">rd_store[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_store[4:0]</obj_property>
+   </wvobject>
+</wave_config>
